@@ -1,0 +1,102 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos de forma vertical */
+    align-items: center;    /* Centraliza horizontalmente */
+    justify-content: flex-start; /* Posiciona os elementos no topo da tela */
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  #game-container {
+    display: flex;
+  }
+  
+  #tetris {
+    border: 2px solid #333;
+    background-color: #eee;
+  }
+  
+  #score-container {
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #score-container h2 {
+    margin: 0;
+  }
+  
+  #score-container p {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  /* Estilização da tela de Game Over */
+  #game-over-screen {
+    display: none;  /* Inicialmente oculta */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  #game-over-screen h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  #game-over-screen p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  #restart-btn {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #restart-btn:hover {
+    background-color: #45a049;
+  }
+  
+  canvas {
+    border: 2px solid #000;
+    background: url('https://www.transparenttextures.com/patterns/wood-pattern.png'); /* Fundo estilizado */
+    background-color: #f0f0f0; /* Cor de fundo padrão */
+  }
+
+  #title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+
+  
